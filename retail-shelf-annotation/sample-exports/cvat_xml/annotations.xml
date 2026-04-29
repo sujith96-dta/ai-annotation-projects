@@ -1,0 +1,2920 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>4</id>
+      <size>5</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-04-22 07:05:29.034411+00:00</created>
+      <updated>2026-04-22 14:51:02.754747+00:00</updated>
+      <subset>Test</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>4</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>4</id>
+          <start>0</start>
+          <stop>4</stop>
+          <url>http://localhost:8080/api/jobs/4/dataset/export/api/jobs/4</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>sujithvichu11</username>
+        <email>sujithvichu11@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Product</name>
+          <color>#e81fa6</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>sku</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value></default_value>
+              <values></values>
+            </attribute>
+            <attribute>
+              <name>name</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value></default_value>
+              <values></values>
+            </attribute>
+            <attribute>
+              <name>size</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value></default_value>
+              <values></values>
+            </attribute>
+            <attribute>
+              <name>category</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>beverage</default_value>
+              <values>beverage
+snack
+dairy
+personal_care
+household
+pharmecy
+cereal</values>
+            </attribute>
+            <attribute>
+              <name>type</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>bottle</default_value>
+              <values>bottle
+box
+can
+packet</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>price_tag</name>
+          <color>#2d5945</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>price</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value></default_value>
+              <values></values>
+            </attribute>
+            <attribute>
+              <name>currency</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value></default_value>
+              <values></values>
+            </attribute>
+            <attribute>
+              <name>visibility</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>clear</default_value>
+              <values>clear
+unclear</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>shelf_row</name>
+          <color>#0f912b</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>poster</name>
+          <color>#a060a0</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>type</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>offer</default_value>
+              <values>offer
+branding</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>product_group</name>
+          <color>#ddff33</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>signage</name>
+          <color>#5f13be</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>type</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>category</default_value>
+              <values>category
+promo</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>display_unit</name>
+          <color>#ef8945</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>product_case</name>
+          <color>#62438a</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>type</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>cardboard_box</default_value>
+              <values>cardboard_box
+poly_bag
+other</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>shelf_column</name>
+          <color>#4349b1</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-04-29 08:16:34.353628+00:00</dumped>
+  </meta>
+  <image id="0" name="1.jpg" width="1920" height="2560">
+    <box label="Product" source="manual" occluded="0" xtl="1170.87" ytl="629.80" xbr="1273.18" ybr="776.64" z_order="0">
+      <attribute name="sku">align_200g_PH_box</attribute>
+      <attribute name="name">align</attribute>
+      <attribute name="size">200g</attribute>
+      <attribute name="category">pharmecy</attribute>
+      <attribute name="type">box</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1271.50" ytl="624.00" xbr="1378.79" ybr="774.99" z_order="0">
+      <attribute name="sku">dk probiotic_200g_PH_box</attribute>
+      <attribute name="name">dk probiotic</attribute>
+      <attribute name="size">200g</attribute>
+      <attribute name="category">pharmecy</attribute>
+      <attribute name="type">box</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1366.42" ytl="625.60" xbr="1481.93" ybr="774.99" z_order="0">
+      <attribute name="sku">align_200g_PH_box</attribute>
+      <attribute name="name">align</attribute>
+      <attribute name="size">200g</attribute>
+      <attribute name="category">pharmecy</attribute>
+      <attribute name="type">box</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1479.46" ytl="657.00" xbr="1573.52" ybr="774.99" z_order="0">
+      <attribute name="sku">culturle_digestive_150g_PH_box</attribute>
+      <attribute name="name">culturle_digestive</attribute>
+      <attribute name="size">150g</attribute>
+      <attribute name="category">pharmecy</attribute>
+      <attribute name="type">box</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1569.39" ytl="630.60" xbr="1678.30" ybr="775.82" z_order="0">
+      <attribute name="sku">culturle_digestive_200g_PH_box</attribute>
+      <attribute name="name">culturle_digestive</attribute>
+      <attribute name="size">200g</attribute>
+      <attribute name="category">pharmecy</attribute>
+      <attribute name="type">can</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1671.70" ytl="630.60" xbr="1784.74" ybr="775.82" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="965.42" ytl="842.65" xbr="1047.11" ybr="958.99" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1775.02" ytl="638.82" xbr="1884.27" ybr="776.51" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1871.28" ytl="658.31" xbr="1919.34" ybr="775.21" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1048.57" ytl="856.71" xbr="1131.92" ybr="962.53" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1132.64" ytl="858.16" xbr="1216.00" ybr="961.81" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1217.45" ytl="856.71" xbr="1300.80" ybr="960.36" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1300.80" ytl="868.31" xbr="1412.42" ybr="959.64" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1414.59" ytl="845.84" xbr="1501.57" ybr="958.19" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1500.84" ytl="858.89" xbr="1584.19" ybr="959.64" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1583.47" ytl="861.06" xbr="1668.27" ybr="958.91" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1666.75" ytl="842.94" xbr="1765.39" ybr="957.46" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1765.39" ytl="842.22" xbr="1862.00" ybr="958.91" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="960.50" ytl="1043.77" xbr="1036.84" ybr="1185.62" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1037.38" ytl="1065.97" xbr="1098.56" ybr="1185.62" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1101.27" ytl="1071.38" xbr="1163.53" ybr="1186.70" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1165.15" ytl="1070.30" xbr="1226.87" ybr="1186.70" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1229.58" ytl="1090.33" xbr="1285.34" ybr="1188.32" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1286.97" ytl="1062.72" xbr="1354.64" ybr="1186.70" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1357.35" ytl="1060.01" xbr="1424.49" ybr="1185.62" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1426.11" ytl="1063.26" xbr="1493.79" ybr="1183.45" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1859.88" ytl="842.81" xbr="1919.07" ybr="961.19" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1500.90" ytl="1082.90" xbr="1559.39" ybr="1184.91" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1560.80" ytl="1050.14" xbr="1638.94" ybr="1187.72" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1643.15" ytl="1039.38" xbr="1728.78" ybr="1187.72" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1728.78" ytl="1031.89" xbr="1806.93" ybr="1185.38" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1807.40" ytl="1028.15" xbr="1895.37" ybr="1187.25" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="956.14" ytl="1236.38" xbr="1058.61" ybr="1421.21" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1062.36" ytl="1236.85" xbr="1157.35" ybr="1419.81" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1153.60" ytl="1236.85" xbr="1250.00" ybr="1423.08" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1250.00" ytl="1237.78" xbr="1327.67" ybr="1420.28" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1327.67" ytl="1237.78" xbr="1403.48" ybr="1418.40" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1400.20" ytl="1273.81" xbr="1482.56" ybr="1421.68" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1481.62" ytl="1273.81" xbr="1561.64" ybr="1420.28" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1561.03" ytl="1259.95" xbr="1634.66" ybr="1422.92" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1627.08" ytl="1260.49" xbr="1705.05" ybr="1424.00" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1695.79" ytl="1261.00" xbr="1780.84" ybr="1421.29" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1769.47" ytl="1238.30" xbr="1876.13" ybr="1420.75" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1876.84" ytl="1239.81" xbr="1919.52" ybr="1420.87" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="953.82" ytl="1470.05" xbr="1064.97" ybr="1671.03" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1069.13" ytl="1483.33" xbr="1163.54" ybr="1669.98" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1165.26" ytl="1489.28" xbr="1242.54" ybr="1671.38" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1242.15" ytl="1477.39" xbr="1333.07" ybr="1671.03" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1437.44" ytl="1479.58" xbr="1533.69" ybr="1673.70" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1539.76" ytl="1477.96" xbr="1638.03" ybr="1674.51" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1638.03" ytl="1480.39" xbr="1734.69" ybr="1673.30" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1731.05" ytl="1479.98" xbr="1832.16" ybr="1674.51" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="952.21" ytl="1726.24" xbr="1058.98" ybr="1944.22" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1061.00" ytl="1752.12" xbr="1147.55" ybr="1941.39" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1150.38" ytl="1754.95" xbr="1226.01" ybr="1940.99" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1226.81" ytl="1741.20" xbr="1314.98" ybr="1940.58" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1315.50" ytl="1742.49" xbr="1405.69" ybr="1942.28" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1405.53" ytl="1777.72" xbr="1515.92" ybr="1940.59" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1499.48" ytl="1778.06" xbr="1617.62" ybr="1940.60" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1611.91" ytl="1753.70" xbr="1724.74" ybr="1940.95" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1713.42" ytl="1749.65" xbr="1828.68" ybr="1941.35" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1815.33" ytl="1742.37" xbr="1903.09" ybr="1942.16" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1894.19" ytl="1747.23" xbr="1920.00" ybr="1942.56" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="784.27" ytl="1830.28" xbr="859.13" ybr="1940.71" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="863.35" ytl="1830.74" xbr="941.02" ybr="1938.84" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="271.67" ytl="1794.03" xbr="385.97" ybr="1941.19" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="179.39" ytl="1794.38" xbr="306.27" ybr="1936.65" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="95.52" ytl="1851.29" xbr="192.85" ybr="1936.45" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="16.86" ytl="1846.52" xbr="106.94" ybr="1938.95" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="0.16" ytl="1811.93" xbr="55.57" ybr="1936.09" z_order="0">
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="707.95" ytl="1814.60" xbr="783.75" ybr="1939.54" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="634.48" ytl="1815.54" xbr="710.75" ybr="1940.01" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="557.74" ytl="1823.49" xbr="634.01" ybr="1936.26" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="492.23" ytl="1830.04" xbr="558.21" ybr="1937.67" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="426.25" ytl="1830.04" xbr="495.51" ybr="1939.54" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="360.74" ytl="1823.02" xbr="432.80" ybr="1938.60" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="891.25" ytl="1541.21" xbr="948.10" ybr="1665.74" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="840.36" ytl="1540.67" xbr="888.55" ybr="1663.57" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="793.26" ytl="1541.76" xbr="839.28" ybr="1663.03" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="739.66" ytl="1539.59" xbr="790.55" ybr="1661.95" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="670.36" ytl="1572.62" xbr="737.49" ybr="1665.20" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="600.52" ytl="1573.16" xbr="668.73" ybr="1663.57" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="532.85" ytl="1536.14" xbr="603.01" ybr="1654.53" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="447.03" ytl="1545.53" xbr="517.19" ybr="1660.80" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="398.79" ytl="1576.85" xbr="445.15" ybr="1660.80" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="346.17" ytl="1573.72" xbr="391.28" ybr="1659.54" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="262.86" ytl="1546.16" xbr="334.27" ybr="1663.30" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="189.57" ytl="1546.79" xbr="262.86" ybr="1662.05" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="146.34" ytl="1589.38" xbr="190.19" ybr="1661.42" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="91.84" ytl="1586.25" xbr="136.95" ybr="1662.05" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="11.00" ytl="1608.75" xbr="88.65" ybr="1665.37" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="21.51" ytl="1539.19" xbr="96.33" ybr="1607.54" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="888.00" ytl="1427.25" xbr="937.27" ybr="1490.59" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="757.52" ytl="1396.93" xbr="828.99" ybr="1488.43" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="676.85" ytl="1395.85" xbr="752.65" ybr="1486.26" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="614.05" ytl="1375.27" xbr="675.23" ybr="1485.72" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="550.16" ytl="1376.36" xbr="611.34" ybr="1489.51" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="484.47" ytl="1374.87" xbr="547.73" ybr="1486.72" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="421.90" ytl="1372.77" xbr="483.42" ybr="1483.23" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="358.63" ytl="1371.73" xbr="422.60" ybr="1486.72" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="288.81" ytl="1358.26" xbr="357.08" ybr="1485.75" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="220.53" ytl="1359.17" xbr="287.30" ybr="1485.14" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="156.99" ytl="1359.54" xbr="218.83" ybr="1485.46" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="100.72" ytl="1370.77" xbr="153.29" ybr="1481.64" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="44.84" ytl="1381.34" xbr="93.17" ybr="1481.64" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="0.00" ytl="1384.06" xbr="46.92" ybr="1481.34" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="833.31" ytl="1423.18" xbr="881.87" ybr="1490.54" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="809.05" ytl="1173.43" xbr="880.63" ybr="1304.46" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="736.65" ytl="1164.94" xbr="808.24" ybr="1302.04" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="661.03" ytl="1163.72" xbr="732.61" ybr="1300.42" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="584.19" ytl="1171.81" xbr="652.13" ybr="1302.04" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1068.97" ytl="627.71" xbr="1171.28" ybr="778.70" z_order="0">
+      <attribute name="sku">dk probiotic_200g_PH_box</attribute>
+      <attribute name="name">dk probiotic</attribute>
+      <attribute name="size">200g</attribute>
+      <attribute name="category">pharmecy</attribute>
+      <attribute name="type">box</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="513.29" ytl="1176.77" xbr="581.14" ybr="1298.90" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="437.01" ytl="1164.13" xbr="511.42" ybr="1298.90" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="361.21" ytl="1165.54" xbr="437.01" ybr="1297.49" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="284.78" ytl="1165.17" xbr="359.33" ybr="1292.96" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="214.89" ytl="1169.23" xbr="282.27" ybr="1295.57" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="142.83" ytl="1170.64" xbr="210.68" ybr="1293.70" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="67.96" ytl="1162.21" xbr="140.96" ybr="1293.70" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="0.11" ytl="1183.27" xbr="67.02" ybr="1295.11" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="883.67" ytl="1215.17" xbr="940.33" ybr="1299.76" z_order="0">
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="872.90" ytl="976.84" xbr="944.08" ybr="1109.49" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="800.92" ytl="982.50" xbr="868.46" ybr="1106.66" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="724.08" ytl="973.61" xbr="796.47" ybr="1108.68" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="644.00" ytl="969.16" xbr="718.41" ybr="1105.45" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="569.59" ytl="977.25" xbr="639.55" ybr="1103.43" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="497.86" ytl="977.44" xbr="565.54" ybr="1103.59" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="414.51" ytl="955.53" xbr="494.52" ybr="1101.05" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="331.22" ytl="956.00" xbr="412.64" ybr="1099.65" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="174.21" ytl="949.67" xbr="248.92" ybr="1098.56" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="96.25" ytl="959.42" xbr="170.42" ybr="1096.93" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="18.28" ytl="961.58" xbr="94.62" ybr="1094.77" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="272.66" ytl="774.83" xbr="399.65" ybr="867.85" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="145.67" ytl="773.21" xbr="272.26" ybr="865.30" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="82.01" ytl="778.75" xbr="144.27" ybr="862.12" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="11.52" ytl="775.92" xbr="81.49" ybr="860.85" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="155.80" ytl="549.89" xbr="285.47" ybr="646.36" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="286.73" ytl="550.51" xbr="412.64" ybr="650.74" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="691.57" ytl="563.92" xbr="814.95" ybr="660.74" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="817.05" ytl="564.96" xbr="936.94" ybr="661.44" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="679.45" ytl="730.02" xbr="809.93" ybr="867.54" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="815.89" ytl="731.10" xbr="947.45" ybr="875.66" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="539.23" ytl="725.69" xbr="670.25" ybr="867.00" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="399.00" ytl="723.52" xbr="534.36" ybr="866.46" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="552.76" ytl="493.42" xbr="692.45" ybr="649.89" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="408.75" ytl="489.63" xbr="551.14" ybr="647.73" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="9.79" ytl="482.31" xbr="158.13" ybr="639.07" z_order="0">
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="963.10" ytl="979.26" xbr="1007.75" ybr="1048.19" z_order="0">
+      <attribute name="price">22.49</attribute>
+      <attribute name="currency">$</attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1038.56" ytl="980.57" xbr="1082.94" ybr="1050.28" z_order="0">
+      <attribute name="price">11.99</attribute>
+      <attribute name="currency">$</attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1125.50" ytl="977.96" xbr="1173.02" ybr="1046.62" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">unclear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1499.03" ytl="976.96" xbr="1547.23" ybr="1047.15" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1664.68" ytl="978.36" xbr="1709.60" ybr="1049.96" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1366.02" ytl="796.10" xbr="1413.33" ybr="866.47" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1160.97" ytl="793.27" xbr="1206.67" ybr="868.90" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="966.41" ytl="792.83" xbr="1010.82" ybr="868.65" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="710.85" ytl="660.97" xbr="753.90" ybr="737.24" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="417.50" ytl="652.66" xbr="460.14" ybr="684.12" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="154.77" ytl="647.52" xbr="202.49" ybr="723.15" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="143.27" ytl="879.76" xbr="190.26" ybr="952.43" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="399.63" ytl="884.51" xbr="441.93" ybr="916.32" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="681.73" ytl="893.48" xbr="723.85" ybr="921.76" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="0.97" ytl="1110.68" xbr="37.54" ybr="1181.20" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="162.30" ytl="1113.29" xbr="206.15" ybr="1145.24" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="326.18" ytl="1115.51" xbr="370.04" ybr="1145.99" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="490.44" ytl="1119.60" xbr="532.81" ybr="1193.56" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="637.48" ytl="1120.90" xbr="679.88" ybr="1195.74" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="797.43" ytl="1127.00" xbr="836.94" ybr="1197.67" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="868.19" ytl="1129.36" xbr="908.83" ybr="1162.12" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="890.65" ytl="1322.18" xbr="931.72" ybr="1391.23" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="659.57" ytl="1314.98" xbr="700.63" ybr="1387.96" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="513.00" ytl="1312.76" xbr="556.00" ybr="1386.29" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="277.91" ytl="1311.92" xbr="322.05" ybr="1385.10" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="130.69" ytl="1308.58" xbr="172.99" ybr="1382.40" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="0.17" ytl="1309.96" xbr="30.29" ybr="1382.01" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="32.62" ytl="1494.41" xbr="75.66" ybr="1527.49" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="132.51" ytl="1495.38" xbr="177.15" ybr="1570.21" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="341.92" ytl="1495.38" xbr="382.07" ybr="1533.60" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="537.87" ytl="1499.00" xbr="580.07" ybr="1534.81" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="662.98" ytl="1500.61" xbr="704.74" ybr="1572.56" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="816.22" ytl="1501.83" xbr="855.73" ybr="1533.95" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="80.54" ytl="1678.42" xbr="123.65" ybr="1750.88" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="180.51" ytl="1678.79" xbr="224.73" ybr="1754.23" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="329.90" ytl="1680.27" xbr="370.41" ybr="1713.35" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="429.50" ytl="1677.30" xbr="472.23" ybr="1715.95" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="592.27" ytl="1679.31" xbr="635.75" ybr="1752.89" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="736.83" ytl="1678.02" xbr="778.19" ybr="1715.50" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="838.82" ytl="1680.32" xbr="879.37" ybr="1716.55" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="80.33" ytl="1950.83" xbr="123.52" ybr="2030.25" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="351.44" ytl="1952.51" xbr="390.07" ybr="1988.98" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="547.84" ytl="1952.62" xbr="590.88" ybr="2031.31" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="778.74" ytl="1953.06" xbr="820.45" ybr="2032.18" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="950.73" ytl="1955.64" xbr="995.02" ybr="2035.62" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1054.79" ytl="1953.92" xbr="1096.50" ybr="2033.04" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1219.04" ytl="1954.35" xbr="1263.33" ybr="2032.18" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1146.63" ytl="1956.24" xbr="1185.76" ybr="1993.22" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1402.47" ytl="1954.95" xbr="1442.46" ybr="1991.50" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1609.40" ytl="1958.40" xbr="1650.66" ybr="1991.10" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1712.34" ytl="1962.11" xbr="1755.08" ybr="1992.22" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1813.43" ytl="1953.19" xbr="1853.19" ybr="1988.50" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1903.70" ytl="1954.68" xbr="1920.00" ybr="1988.13" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1035.65" ytl="1198.44" xbr="1077.79" ybr="1272.83" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="958.69" ytl="1201.02" xbr="1001.68" ybr="1234.13" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1095.42" ytl="1198.44" xbr="1139.71" ybr="1274.12" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1053.39" ytl="1435.44" xbr="1097.39" ybr="1509.31" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="953.50" ytl="1431.91" xbr="994.93" ybr="1465.31" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1402.48" ytl="1438.98" xbr="1448.84" ybr="1510.32" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1563.02" ytl="1439.08" xbr="1605.73" ybr="1466.19" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1778.78" ytl="1437.38" xbr="1820.29" ybr="1468.33" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1885.79" ytl="1438.10" xbr="1919.62" ybr="1471.44" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1887.16" ytl="1201.87" xbr="1919.79" ybr="1236.42" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1814.94" ytl="1204.99" xbr="1855.73" ybr="1234.74" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1727.61" ytl="1203.07" xbr="1771.04" ybr="1236.18" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1646.71" ytl="1205.66" xbr="1685.78" ybr="1234.87" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1827.19" ytl="1687.80" xbr="1868.23" ybr="1719.31" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1733.90" ytl="1686.97" xbr="1779.92" ybr="1759.53" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1635.23" ytl="1686.14" xbr="1680.84" ybr="1760.77" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1537.39" ytl="1684.49" xbr="1579.68" ybr="1760.77" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1434.99" ytl="1684.07" xbr="1481.42" ybr="1762.43" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1338.08" ytl="1684.74" xbr="1382.36" ybr="1760.92" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1242.17" ytl="1683.73" xbr="1285.17" ybr="1760.77" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1161.55" ytl="1682.65" xbr="1203.48" ybr="1759.33" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1063.23" ytl="1679.97" xbr="1105.52" ybr="1758.74" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="950.46" ytl="1685.36" xbr="992.34" ybr="1721.01" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="0.00" ytl="456.77" xbr="954.99" ybr="698.46" z_order="0">
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="0.00" ytl="680.04" xbr="954.99" ybr="932.08" z_order="0">
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="0.91" ytl="911.37" xbr="950.38" ybr="1159.96" z_order="0">
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="0.13" ytl="1143.77" xbr="950.08" ybr="1355.25" z_order="0">
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="0.00" ytl="1342.62" xbr="948.11" ybr="1540.34" z_order="0">
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="1.60" ytl="1530.03" xbr="950.69" ybr="1718.30" z_order="0">
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="2.52" ytl="1710.88" xbr="943.94" ybr="1992.85" z_order="0">
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="958.87" ytl="489.61" xbr="1920.00" ybr="826.51" z_order="0">
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="961.66" ytl="827.84" xbr="1919.08" ybr="1012.93" z_order="0">
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="953.54" ytl="1011.60" xbr="1919.08" ybr="1236.64" z_order="0">
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="947.62" ytl="1471.96" xbr="1918.96" ybr="1717.10" z_order="0">
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="942.79" ytl="1721.12" xbr="1918.73" ybr="1992.73" z_order="0">
+    </box>
+    <box label="signage" source="manual" occluded="0" xtl="34.74" ytl="1092.50" xbr="70.75" ybr="1193.74" z_order="0">
+      <attribute name="type">category</attribute>
+    </box>
+    <box label="signage" source="manual" occluded="0" xtl="1173.96" ytl="1187.53" xbr="1202.72" ybr="1284.07" z_order="0">
+      <attribute name="type">category</attribute>
+    </box>
+  </image>
+  <image id="1" name="2.jpg" width="1418" height="647">
+    <box label="price_tag" source="manual" occluded="0" xtl="897.69" ytl="321.79" xbr="917.13" ybr="331.23" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="391.19" ytl="343.68" xbr="480.83" ybr="400.84" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="481.74" ytl="345.05" xbr="541.19" ybr="399.01" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="541.19" ytl="330.87" xbr="617.57" ybr="364.72" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="618.02" ytl="330.87" xbr="718.18" ybr="363.80" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="718.13" ytl="322.82" xbr="767.34" ybr="364.62" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="768.40" ytl="322.82" xbr="844.60" ybr="364.09" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="845.07" ytl="322.82" xbr="895.39" ybr="363.56" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="582.68" ytl="379.97" xbr="895.92" ybr="422.83" z_order="0">
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="548.28" ytl="387.37" xbr="578.97" ybr="422.83" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="299.59" ytl="505.37" xbr="414.94" ybr="563.05" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="416.53" ytl="504.84" xbr="537.17" ybr="564.10" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="176.83" ytl="504.31" xbr="298.00" ybr="563.58" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="196.41" ytl="422.30" xbr="318.64" ybr="481.03" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="320.17" ytl="423.36" xbr="448.28" ybr="478.91" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="453.57" ytl="423.36" xbr="543.52" ybr="481.03" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="548.98" ytl="437.55" xbr="892.98" ybr="480.93" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="698.98" ytl="504.05" xbr="900.58" ybr="563.84" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="538.07" ytl="503.52" xbr="698.45" ybr="564.37" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="901.33" ytl="499.68" xbr="1022.68" ybr="564.93" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1022.31" ytl="491.74" xbr="1132.29" ybr="564.47" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1132.16" ytl="496.36" xbr="1243.44" ybr="565.51" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="897.15" ytl="426.17" xbr="981.87" ybr="466.82" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="981.87" ytl="425.50" xbr="1104.50" ybr="467.16" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1105.53" ytl="425.14" xbr="1172.48" ybr="464.77" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1175.56" ytl="424.80" xbr="1244.22" ybr="464.43" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="897.83" ytl="351.36" xbr="1244.56" ybr="393.38" z_order="0">
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="895.80" ytl="285.39" xbr="940.13" ybr="319.34" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="939.83" ytl="288.93" xbr="985.01" ybr="319.05" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="986.48" ytl="286.28" xbr="1029.00" ybr="318.75" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1029.59" ytl="287.46" xbr="1072.99" ybr="319.64" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1207.06" ytl="289.97" xbr="1250.76" ybr="319.20" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="895.85" ytl="201.94" xbr="948.80" ybr="253.86" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="948.80" ytl="201.94" xbr="1000.72" ybr="254.20" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1001.75" ytl="205.35" xbr="1055.38" ybr="254.20" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1056.40" ytl="194.08" xbr="1139.07" ybr="254.20" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1139.07" ytl="192.71" xbr="1245.31" ybr="254.89" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="895.47" ytl="122.07" xbr="1247.67" ybr="182.53" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="896.16" ytl="42.13" xbr="1215.22" ybr="100.55" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="735.63" ytl="27.30" xbr="825.75" ybr="86.58" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="542.75" ytl="27.69" xbr="618.24" ybr="85.40" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="405.32" ytl="24.45" xbr="535.35" ybr="85.32" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="321.13" ytl="24.06" xbr="404.13" ybr="85.32" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="194.65" ytl="26.03" xbr="320.34" ybr="85.72" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="82.00" ytl="24.45" xbr="193.46" ybr="86.90" z_order="0">
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="38.88" ytl="21.68" xbr="80.02" ybr="86.51" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="38.52" ytl="102.32" xbr="119.94" ybr="159.23" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="124.69" ytl="101.92" xbr="205.32" ybr="160.42" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="209.67" ytl="109.04" xbr="281.21" ybr="167.14" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="313.62" ytl="109.80" xbr="388.72" ybr="165.56" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="378.40" ytl="98.76" xbr="465.79" ybr="166.74" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="468.12" ytl="100.34" xbr="546.82" ybr="166.35" z_order="0">
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="285.16" ytl="108.64" xbr="313.62" ybr="165.16" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="547.17" ytl="100.34" xbr="589.50" ybr="159.63" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="545.29" ytl="203.92" xbr="577.06" ybr="225.10" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="584.92" ytl="189.57" xbr="608.15" ybr="223.39" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="853.42" ytl="241.50" xbr="892.02" ybr="296.84" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="823.02" ytl="101.09" xbr="895.10" ybr="158.83" z_order="0">
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="781.68" ytl="101.44" xbr="822.68" ybr="159.85" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="623.18" ytl="101.09" xbr="740.35" ybr="157.80" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="606.52" ytl="170.83" xbr="723.65" ybr="223.40" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="725.94" ytl="170.32" xbr="808.62" ybr="224.68" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="810.15" ytl="170.32" xbr="890.02" ybr="224.17" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="774.49" ytl="239.79" xbr="852.25" ybr="296.79" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="703.65" ytl="239.95" xbr="773.18" ybr="298.11" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="620.13" ytl="240.66" xbr="701.16" ybr="297.65" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="541.75" ytl="241.83" xbr="618.85" ybr="298.17" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="203.92" ytl="292.50" xbr="340.66" ybr="319.94" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="341.12" ytl="292.50" xbr="433.50" ybr="319.49" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="432.99" ytl="293.42" xbr="535.02" ybr="319.49" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="288.45" ytl="358.12" xbr="390.27" ybr="399.80" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="191.45" ytl="358.95" xbr="287.40" ybr="400.29" z_order="0">
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="470.16" ytl="241.77" xbr="540.58" ybr="268.31" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="400.75" ytl="241.52" xbr="469.39" ybr="269.08" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="331.34" ytl="241.77" xbr="399.98" ybr="268.57" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="259.89" ytl="242.03" xbr="330.32" ybr="268.57" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="185.68" ytl="241.21" xbr="257.35" ybr="268.34" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="469.09" ytl="185.65" xbr="531.61" ybr="216.91" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="405.04" ytl="185.46" xbr="468.71" ybr="216.72" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="330.52" ytl="192.51" xbr="402.57" ybr="217.29" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="263.84" ytl="188.20" xbr="327.12" ybr="217.60" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="195.40" ytl="194.53" xbr="263.65" ybr="217.79" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="39.98" ytl="182.80" xbr="195.89" ybr="223.89" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="129.04" ytl="241.75" xbr="189.51" ybr="284.36" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="72.25" ytl="256.25" xbr="128.92" ybr="283.76" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="39.78" ytl="252.70" xbr="72.55" ybr="283.65" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="37.70" ytl="313.57" xbr="80.58" ybr="339.63" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="79.85" ytl="301.04" xbr="139.66" ybr="339.91" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="140.36" ytl="312.29" xbr="195.19" ybr="340.34" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="129.66" ytl="359.61" xbr="190.17" ybr="400.18" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="77.85" ytl="360.68" xbr="129.66" ybr="400.44" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="39.14" ytl="361.10" xbr="77.35" ybr="400.20" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="109.20" ytl="418.60" xbr="194.87" ybr="486.89" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="34.46" ytl="421.25" xbr="106.09" ybr="488.13" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="116.59" ytl="520.04" xbr="175.19" ybr="562.16" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="74.11" ytl="515.92" xbr="118.02" ybr="561.62" z_order="0">
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1246.49" ytl="362.86" xbr="1299.97" ybr="434.12" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1246.03" ytl="502.26" xbr="1347.52" ybr="562.83" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1262.79" ytl="448.37" xbr="1336.37" ybr="467.33" z_order="0">
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1348.97" ytl="502.26" xbr="1380.22" ybr="563.95" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1299.95" ytl="351.38" xbr="1344.55" ybr="419.02" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1345.63" ytl="354.72" xbr="1381.71" ybr="414.18" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1276.98" ytl="565.63" xbr="1311.95" ybr="587.84" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1137.07" ytl="566.19" xbr="1156.78" ybr="575.90" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1109.97" ytl="467.92" xbr="1129.65" ybr="477.36" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1065.00" ytl="469.03" xbr="1084.68" ybr="477.36" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1179.62" ytl="468.20" xbr="1197.97" ybr="477.08" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1249.85" ytl="468.75" xbr="1269.01" ybr="478.47" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1279.56" ytl="467.36" xbr="1297.91" ybr="477.36" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1311.76" ytl="468.75" xbr="1330.38" ybr="477.08" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1352.29" ytl="468.47" xbr="1370.64" ybr="477.08" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1022.78" ytl="566.74" xbr="1041.68" ybr="575.63" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="945.44" ytl="321.79" xbr="964.60" ybr="330.95" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="980.97" ytl="322.35" xbr="999.29" ybr="330.95" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1026.50" ytl="322.62" xbr="1045.38" ybr="331.51" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1078.69" ytl="322.90" xbr="1097.01" ybr="331.23" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1120.88" ytl="321.79" xbr="1139.48" ybr="330.67" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1171.68" ytl="322.07" xbr="1190.56" ybr="331.78" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1208.88" ytl="323.18" xbr="1226.65" ybr="330.95" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="906.30" ytl="395.35" xbr="926.29" ybr="404.52" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="984.58" ytl="395.35" xbr="1003.74" ybr="403.96" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1074.80" ytl="395.63" xbr="1093.40" ybr="404.24" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1163.08" ytl="395.08" xbr="1182.23" ybr="404.52" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="907.83" ytl="566.30" xbr="926.15" ybr="575.46" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="900.05" ytl="469.14" xbr="918.38" ybr="477.75" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="978.89" ytl="468.31" xbr="998.05" ybr="477.75" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="898.02" ytl="255.84" xbr="916.08" ybr="264.87" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="948.65" ytl="256.70" xbr="967.61" ybr="264.61" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="974.81" ytl="256.94" xbr="993.52" ybr="265.09" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1003.60" ytl="256.46" xbr="1022.79" ybr="264.61" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1056.86" ytl="256.46" xbr="1075.09" ybr="264.85" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1150.67" ytl="256.22" xbr="1170.58" ybr="264.85" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="896.35" ytl="183.28" xbr="916.99" ybr="191.44" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="958.49" ytl="182.80" xbr="977.21" ybr="191.92" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1067.66" ytl="183.28" xbr="1086.13" ybr="191.92" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1144.19" ytl="183.28" xbr="1162.91" ybr="191.44" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1208.73" ytl="256.22" xbr="1227.68" ybr="265.09" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="896.31" ytl="103.63" xbr="915.74" ybr="111.40" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1016.78" ytl="102.52" xbr="1035.10" ybr="110.85" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1139.48" ytl="102.24" xbr="1158.64" ybr="111.96" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="79.15" ytl="563.72" xbr="98.35" ybr="573.56" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="114.18" ytl="563.48" xbr="132.66" ybr="573.08" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="99.79" ytl="488.63" xbr="118.74" ybr="498.47" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="193.12" ytl="480.95" xbr="213.51" ybr="504.94" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="325.79" ytl="480.71" xbr="346.67" ybr="505.42" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="190.00" ytl="563.72" xbr="211.11" ybr="592.51" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="300.12" ytl="563.96" xbr="320.76" ybr="591.56" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="423.27" ytl="565.04" xbr="442.19" ybr="574.07" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="546.64" ytl="566.19" xbr="564.13" ybr="573.96" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="446.15" ytl="481.52" xbr="466.14" ybr="504.01" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="547.76" ytl="481.80" xbr="567.46" ybr="504.84" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="584.39" ytl="423.73" xbr="603.98" ybr="447.82" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="741.45" ytl="482.19" xbr="761.04" ybr="504.35" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="748.52" ytl="423.73" xbr="767.79" ybr="449.75" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="845.01" ytl="364.99" xbr="863.88" ybr="374.98" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="765.89" ytl="366.10" xbr="784.21" ybr="374.70" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="717.87" ytl="365.82" xbr="737.02" ybr="374.70" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="545.48" ytl="367.76" xbr="564.91" ybr="374.42" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="621.82" ytl="365.82" xbr="640.42" ybr="374.70" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="714.28" ytl="88.02" xbr="732.58" ybr="97.34" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="546.30" ytl="226.13" xbr="564.60" ybr="253.76" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="610.53" ytl="226.46" xbr="627.88" ybr="254.08" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="726.48" ytl="225.49" xbr="744.79" ybr="254.08" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="809.67" ytl="226.13" xbr="827.66" ybr="255.68" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="796.50" ytl="87.70" xbr="815.13" ybr="96.70" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="78.28" ytl="87.59" xbr="99.18" ybr="116.94" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="36.49" ytl="159.72" xbr="57.89" ybr="189.08" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="117.09" ytl="160.22" xbr="137.49" ybr="186.09" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="332.51" ytl="217.44" xbr="353.90" ybr="243.31" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1073.02" ytl="289.08" xbr="1117.90" ybr="319.79" z_order="0">
+      <attribute name="sku">Organic_cones_20g_case</attribute>
+      <attribute name="name">Organic</attribute>
+      <attribute name="size">20g</attribute>
+      <attribute name="category">snack</attribute>
+      <attribute name="type">packet</attribute>
+    </box>
+  </image>
+  <image id="2" name="3.jpg" width="4032" height="3024">
+    <box label="Product" source="manual" occluded="0" xtl="1109.32" ytl="1080.64" xbr="1478.69" ybr="1580.24" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="623.38" ytl="1014.05" xbr="1075.73" ybr="1581.11" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="265.17" ytl="1049.76" xbr="632.04" ybr="1586.53" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1.01" ytl="1128.44" xbr="274.81" ybr="1589.45" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="17.79" ytl="1733.11" xbr="524.85" ybr="2334.34" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="875.45" ytl="1806.99" xbr="1262.26" ybr="2306.81" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="637.85" ytl="1785.26" xbr="882.69" ybr="2250.31" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1289.79" ytl="1759.18" xbr="1617.21" ybr="2267.69" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1611.41" ytl="1759.18" xbr="1960.56" ybr="2296.67" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1956.53" ytl="1742.04" xbr="2325.55" ybr="2295.03" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="2319.06" ytl="1762.49" xbr="2641.55" ybr="2239.84" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="3776.27" ytl="1709.64" xbr="4029.95" ybr="2238.43" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="16.96" ytl="2405.78" xbr="345.50" ybr="3020.96" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="648.90" ytl="2467.80" xbr="1016.00" ybr="2994.14" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1324.43" ytl="2476.18" xbr="1656.33" ybr="2979.05" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1684.82" ytl="2472.83" xbr="2015.04" ybr="2977.37" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1032.76" ytl="2417.51" xbr="1322.75" ybr="2888.53" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="329.49" ytl="2476.76" xbr="651.29" ybr="2986.38" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="2722.59" ytl="2417.34" xbr="3170.14" ybr="2993.97" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="3500.53" ytl="2405.61" xbr="3984.80" ybr="3002.35" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="signage" source="manual" occluded="0" xtl="129.49" ytl="741.59" xbr="381.63" ybr="970.45" z_order="0">
+      <attribute name="type">category</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1231.11" ytl="857.96" xbr="1331.96" ybr="916.14" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1679.13" ytl="859.90" xbr="1779.98" ybr="908.38" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1977.81" ytl="857.96" xbr="2074.78" ybr="910.32" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="2257.09" ytl="856.02" xbr="2367.64" ybr="894.81" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="3095.72" ytl="846.13" xbr="3202.39" ybr="898.49" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="3332.33" ytl="842.25" xbr="3437.06" ybr="890.74" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1566.83" ytl="1580.80" xbr="1669.63" ybr="1633.16" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1952.79" ytl="1576.92" xbr="2053.64" ybr="1623.47" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="234.42" ytl="1592.43" xbr="333.33" ybr="1642.86" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="2788.70" ytl="1573.04" xbr="2901.19" ybr="1635.10" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="3711.66" ytl="1568.82" xbr="3820.32" ybr="1628.22" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="2756.99" ytl="2300.21" xbr="2859.66" ybr="2362.82" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1866.10" ytl="2303.91" xbr="1961.72" ybr="2369.11" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1269.22" ytl="2314.05" xbr="1357.59" ybr="2354.62" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="872.42" ytl="2320.25" xbr="963.82" ybr="2366.58" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="92.33" ytl="2335.24" xbr="188.94" ybr="2363.62" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="181.48" ytl="0.00" xbr="513.82" ybr="214.45" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="516.42" ytl="1.55" xbr="1149.94" ybr="204.07" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1155.13" ytl="6.74" xbr="1482.28" ybr="162.53" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1889.91" ytl="9.34" xbr="2211.87" ybr="191.09" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="2217.06" ytl="1.55" xbr="2837.60" ybr="196.28" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="2842.80" ytl="6.74" xbr="3146.58" ybr="193.68" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="3159.56" ytl="1.55" xbr="3559.40" ybr="198.88" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="3559.44" ytl="3.04" xbr="4032.00" ybr="198.93" z_order="0">
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="5.70" ytl="2376.15" xbr="4023.32" ybr="3019.19" z_order="0">
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="0.21" ytl="1.86" xbr="4032.00" ybr="243.68" z_order="0">
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="3.63" ytl="343.35" xbr="436.58" ybr="865.64" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="0.21" ytl="919.70" xbr="4032.00" ybr="1628.69" z_order="0">
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="506.29" ytl="403.06" xbr="921.43" ybr="865.33" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="918.96" ytl="412.04" xbr="1278.23" ybr="856.36" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1275.99" ytl="333.50" xbr="1697.86" ybr="856.36" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1657.25" ytl="418.77" xbr="1953.68" ybr="854.11" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1955.70" ytl="418.77" xbr="2243.16" ybr="854.11" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="2314.97" ytl="248.22" xbr="2669.53" ybr="842.89" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="2671.55" ytl="261.69" xbr="2945.54" ybr="847.38" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="2966.16" ytl="387.83" xbr="3286.17" ybr="841.67" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="3239.43" ytl="337.41" xbr="3596.49" ybr="843.61" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="3598.23" ytl="296.68" xbr="3992.14" ybr="843.61" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="2758.96" ytl="1011.63" xbr="3187.79" ybr="1567.95" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="3209.52" ytl="1011.63" xbr="3629.66" ybr="1565.05" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="3622.48" ytl="962.88" xbr="4027.82" ybr="1566.06" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="2320.90" ytl="1016.22" xbr="2743.70" ybr="1572.85" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1841.81" ytl="1019.29" xbr="2258.77" ybr="1568.97" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1562.59" ytl="1089.41" xbr="1845.57" ybr="1573.98" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="11.20" ytl="1649.37" xbr="4032.00" ybr="2369.35" z_order="0">
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="845.16" ytl="863.78" xbr="947.95" ybr="916.14" z_order="0">
+      <attribute name="price">3.98</attribute>
+      <attribute name="currency">USD</attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="5.70" ytl="254.67" xbr="4023.32" ybr="881.22" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="4.jpg" width="5760" height="3600">
+    <box label="price_tag" source="manual" occluded="0" xtl="2255.62" ytl="2241.31" xbr="2503.98" ybr="2332.71" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="2590.21" ytl="2248.20" xbr="2828.22" ybr="2337.89" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="3019.78" ytl="2256.49" xbr="3255.25" ybr="2338.31" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="3380.97" ytl="2262.48" xbr="3612.45" ybr="2340.30" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="3939.72" ytl="2242.52" xbr="4179.19" ybr="2336.31" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="4390.71" ytl="2258.49" xbr="4628.18" ybr="2340.30" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="4779.84" ytl="2256.49" xbr="5019.30" ybr="2348.29" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="5215.73" ytl="2254.30" xbr="5460.19" ybr="2337.78" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="58.81" ytl="0.00" xbr="525.77" ybr="611.38" z_order="0">
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="511.60" ytl="0.74" xbr="775.21" ybr="609.38" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="882.97" ytl="2.74" xbr="1140.39" ybr="609.38" z_order="0">
+      <attribute name="sku"></attribute>
+      <attribute name="name"></attribute>
+      <attribute name="size"></attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="11.04" ytl="0.00" xbr="5758.25" ybr="731.39" z_order="0">
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="5.46" ytl="753.71" xbr="5758.25" ybr="1562.79" z_order="0">
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="5.46" ytl="1573.95" xbr="5752.67" ybr="2349.54" z_order="0">
+    </box>
+    <box label="shelf_row" source="manual" occluded="0" xtl="0.00" ytl="2355.12" xbr="5752.67" ybr="3471.08" z_order="0">
+    </box>
+    <box label="Product" source="manual" occluded="0" xtl="1.75" ytl="940.85" xbr="154.79" ybr="1442.50" z_order="0">
+      <attribute name="sku">pepma_norypt_bot_50ml_drink</attribute>
+      <attribute name="name">pepma_norypt</attribute>
+      <attribute name="size">50ml</attribute>
+      <attribute name="category">beverage</attribute>
+      <attribute name="type">bottle</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1819.27" ytl="2260.28" xbr="2057.28" ybr="2348.24" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1245.39" ytl="925.92" xbr="1676.30" ybr="1436.42" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1670.81" ytl="920.43" xbr="2115.44" ybr="1447.40" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="2112.69" ytl="923.17" xbr="2554.58" ybr="1447.40" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="2554.58" ytl="917.68" xbr="2971.76" ybr="1436.42" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="2980.00" ytl="796.92" xbr="3334.05" ybr="1444.65" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="3339.54" ytl="802.41" xbr="3850.04" ybr="1441.91" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="3858.28" ytl="799.66" xbr="4404.46" ybr="1436.42" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1192.85" ytl="67.52" xbr="1653.05" ybr="610.73" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1655.42" ytl="65.14" xbr="2113.24" ybr="615.48" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="2117.99" ytl="60.40" xbr="2561.57" ybr="615.48" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="2561.34" ytl="69.89" xbr="2981.44" ybr="610.73" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="2988.32" ytl="72.26" xbr="3425.03" ybr="613.11" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="3428.82" ytl="0.39" xbr="3955.44" ybr="612.39" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="3957.81" ytl="0.39" xbr="4510.52" ybr="617.14" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="4517.30" ytl="53.12" xbr="5760.00" ybr="610.28" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="4391.56" ytl="919.33" xbr="5755.64" ybr="1438.06" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="4308.51" ytl="1727.55" xbr="5757.27" ybr="2225.28" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="3842.91" ytl="1612.07" xbr="4301.26" ybr="2229.61" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="3329.66" ytl="1612.07" xbr="3842.91" ybr="2229.61" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="2997.56" ytl="1612.07" xbr="3321.43" ybr="2229.61" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="2575.16" ytl="1727.62" xbr="2989.60" ybr="2227.14" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="2144.26" ytl="1722.13" xbr="2569.67" ybr="2229.89" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1268.72" ytl="1735.86" xbr="1710.61" ybr="2229.89" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="1713.35" ytl="1730.37" xbr="2141.51" ybr="2229.89" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="637.46" ytl="1606.31" xbr="1285.19" ybr="2229.34" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="192.83" ytl="1598.08" xbr="651.18" ybr="2232.08" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="6.19" ytl="1732.56" xbr="209.29" ybr="2234.83" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="129.28" ytl="792.06" xbr="635.18" ybr="1442.50" z_order="0">
+    </box>
+    <box label="product_group" source="manual" occluded="0" xtl="626.68" ytl="936.60" xbr="1005.04" ybr="1434.00" z_order="0">
+    </box>
+    <box label="product_case" source="manual" occluded="0" xtl="1222.10" ytl="2548.10" xbr="1746.05" ybr="3433.85" z_order="0">
+      <attribute name="type">cardboard_box</attribute>
+    </box>
+    <box label="product_case" source="manual" occluded="0" xtl="1524.60" ytl="2560.00" xbr="1996.80" ybr="3434.40" z_order="0">
+      <attribute name="type">cardboard_box</attribute>
+    </box>
+    <box label="product_case" source="manual" occluded="0" xtl="1885.90" ytl="2557.80" xbr="2264.90" ybr="3429.24" z_order="0">
+      <attribute name="type">cardboard_box</attribute>
+    </box>
+    <box label="product_case" source="manual" occluded="0" xtl="2206.20" ytl="2699.60" xbr="2513.30" ybr="3406.73" z_order="0">
+      <attribute name="type">cardboard_box</attribute>
+    </box>
+    <box label="product_case" source="manual" occluded="0" xtl="2489.70" ytl="2562.90" xbr="2836.50" ybr="3417.69" z_order="0">
+      <attribute name="type">cardboard_box</attribute>
+    </box>
+    <box label="product_case" source="manual" occluded="0" xtl="2780.10" ytl="2597.63" xbr="3204.38" ybr="3401.34" z_order="0">
+      <attribute name="type">cardboard_box</attribute>
+    </box>
+    <box label="product_case" source="manual" occluded="0" xtl="3186.69" ytl="2605.11" xbr="3587.40" ybr="3427.92" z_order="0">
+      <attribute name="type">cardboard_box</attribute>
+    </box>
+    <box label="product_case" source="manual" occluded="0" xtl="3427.12" ytl="2436.81" xbr="3942.71" ybr="3377.16" z_order="0">
+      <attribute name="type">cardboard_box</attribute>
+    </box>
+    <box label="product_case" source="manual" occluded="0" xtl="3924.23" ytl="2501.21" xbr="4610.89" ybr="3459.67" z_order="0">
+      <attribute name="type">cardboard_box</attribute>
+    </box>
+    <box label="product_case" source="manual" occluded="0" xtl="731.99" ytl="2419.56" xbr="1533.17" ybr="3433.16" z_order="0">
+      <attribute name="type">cardboard_box</attribute>
+    </box>
+    <box label="product_case" source="manual" occluded="0" xtl="4378.40" ytl="2559.10" xbr="5758.89" ybr="3467.53" z_order="0">
+      <attribute name="type">cardboard_box</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="145.77" ytl="630.63" xbr="402.20" ybr="724.10" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="444.97" ytl="635.98" xbr="709.44" ybr="721.46" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1291.82" ytl="619.95" xbr="1558.97" ybr="726.81" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1737.95" ytl="643.99" xbr="2002.43" ybr="732.15" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="2317.66" ytl="622.62" xbr="2568.78" ybr="718.79" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="2590.15" ytl="643.99" xbr="2851.95" ybr="721.46" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="3017.58" ytl="638.65" xbr="3268.70" ybr="718.79" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="3453.11" ytl="641.57" xbr="3700.38" ybr="721.94" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="4096.39" ytl="627.16" xbr="4351.65" ybr="723.74" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="4517.22" ytl="646.13" xbr="4765.58" ybr="728.92" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="5412.02" ytl="634.55" xbr="5664.53" ybr="724.73" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="4983.01" ytl="613.94" xbr="5315.40" ybr="894.79" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="140.68" ytl="1474.07" xbr="380.81" ybr="1561.81" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="517.03" ytl="1467.14" xbr="766.39" ybr="1559.50" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1253.57" ytl="1478.69" xbr="1496.00" ybr="1564.11" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1666.86" ytl="1474.07" xbr="1906.98" ybr="1557.19" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="2590.42" ytl="1474.07" xbr="2832.85" ybr="1554.88" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="3036.26" ytl="1465.52" xbr="3271.77" ybr="1548.64" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="3380.29" ytl="1474.76" xbr="3615.79" ybr="1553.26" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="3904.40" ytl="1465.52" xbr="4151.46" ybr="1550.95" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="4449.30" ytl="1465.52" xbr="4698.66" ybr="1544.03" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="4920.32" ytl="1437.82" xbr="5204.31" ybr="1703.34" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="5333.61" ytl="1437.82" xbr="5654.54" ybr="1712.58" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="3.34" ytl="2270.45" xbr="96.47" ybr="2348.06" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="215.47" ytl="2268.73" xbr="455.21" ybr="2351.51" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="581.11" ytl="2265.28" xbr="820.84" ybr="2349.79" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+    <box label="price_tag" source="manual" occluded="0" xtl="1327.91" ytl="2265.28" xbr="1565.91" ybr="2349.79" z_order="0">
+      <attribute name="price"></attribute>
+      <attribute name="currency"></attribute>
+      <attribute name="visibility">clear</attribute>
+    </box>
+  </image>
+</annotations>
