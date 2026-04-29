@@ -1,4 +1,4 @@
-# OCR Document Annotation
+# Logistics_OCR Document Annotation
 
 ## Project Overview
 Document annotation project focused on:
