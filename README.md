@@ -102,13 +102,56 @@ Tools:
 
 # Portfolio Repository Structure
 
-```text
-retail-shelf-annotation/
-document-ocr-annotation/
-medical-image-annotation/
-```
+# Project Navigation
+
+## Retail Shelf Annotation
+🔗 [Open Project](./retail-shelf-annotation)
+
+Focus Areas:
+- Product detection
+- Shelf segmentation
+- Price tag annotation
+- SKU grouping
 
 ---
+
+## OCR & Document Annotation
+🔗 [Open Project](./document-ocr-annotation)
+
+Focus Areas:
+- Invoice extraction
+- Table annotation
+- OCR workflows
+- Logistics document processing
+
+---
+
+## Medical Image Annotation
+🔗 [Open Project](./medical-image-annotation)
+
+Focus Areas:
+- Dental X-ray annotation
+- Tooth segmentation
+- Caries detection
+- Medical polygon annotation
+
+# Portfolio Preview
+
+## Retail Shelf Annotation
+
+![Retail Preview](retail-shelf-annotation/images/retail_01_annotated.png)
+
+---
+
+## OCR Document Annotation
+
+![OCR Preview](document-ocr-annotation/images/logistic_01_annotated.png)
+
+---
+
+## Medical Image Annotation
+
+![Medical Preview](medical-image-annotation/images/dental_01_annotated.png)
 
 # Contact
 
