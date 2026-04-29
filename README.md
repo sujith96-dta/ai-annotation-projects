@@ -139,13 +139,13 @@ Focus Areas:
 
 ## Retail Shelf Annotation
 
-![Retail Preview](retail-shelf-annotation/images/retail_01_annotated.png)
+![Retail Preview](retail-shelf-annotation/images/reatil_02_annotated.png)
 
 ---
 
 ## OCR Document Annotation
 
-![OCR Preview](document-ocr-annotation/images/logistic_01_annotated.png)
+![OCR Preview](document-ocr-annotation/images/logistic_02_annotated.png)
 
 ---
 
