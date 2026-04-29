@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>1</id>
+      <size>3</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-04-21 10:05:40.880295+00:00</created>
+      <updated>2026-04-22 14:51:25.675391+00:00</updated>
+      <subset>Train</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>2</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>1</id>
+          <start>0</start>
+          <stop>2</stop>
+          <url>http://localhost:8080/api/jobs/1/dataset/export/api/jobs/1</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>sujithvichu11</username>
+        <email>sujithvichu11@gmail.com</email>
+      </owner>
+      <assignee>
+        <username>sujithvichu11</username>
+        <email>sujithvichu11@gmail.com</email>
+      </assignee>
+      <labels>
+        <label>
+          <name>Document Type</name>
+          <color>#8f225a</color>
+          <type>tag</type>
+          <attributes>
+            <attribute>
+              <name>Type</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>House Bill of Lading</default_value>
+              <values>House Bill of Lading
+Maste Bill of Lading
+Commercial Invoice
+Packing list
+Export accompanying document
+House airway bill
+Master airway bill</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Master bill number</name>
+          <color>#d7cf08</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>House bill number</name>
+          <color>#a8010f</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Invoice number</name>
+          <color>#b1dace</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Total amount</name>
+          <color>#ede6f9</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Quantity</name>
+          <color>#762a06</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>UOM</name>
+          <color>#8d8f55</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Netweight</name>
+          <color>#a34e37</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Net weight uom</name>
+          <color>#6fcffb</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Gross weight</name>
+          <color>#43885f</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Gross weight uom</name>
+          <color>#5bc2a9</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Country of origin</name>
+          <color>#af18ce</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Port of Receipt</name>
+          <color>#1f82f0</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Port of discharge</name>
+          <color>#61332a</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Port of loading</name>
+          <color>#68361b</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Port of destination</name>
+          <color>#9869b5</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Invoice date</name>
+          <color>#7aab92</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Consignee</name>
+          <color>#f39025</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Seller</name>
+          <color>#b09d97</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Notify Party</name>
+          <color>#ef011a</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Description of goods</name>
+          <color>#8189c4</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Place of issue</name>
+          <color>#2c6983</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>date of issue</name>
+          <color>#c3e440</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>payment terms</name>
+          <color>#e3029a</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>currency</name>
+          <color>#a120d2</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>container number</name>
+          <color>#8c511a</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>container type</name>
+          <color>#a189b4</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Volume</name>
+          <color>#ca7ba3</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>volume unit</name>
+          <color>#27a714</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Carrier</name>
+          <color>#6228db</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Also notify party</name>
+          <color>#251572</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Freight Forwarder</name>
+          <color>#d4e185</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>country of destination</name>
+          <color>#89dc23</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Hs code</name>
+          <color>#88041c</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Purchase order number</name>
+          <color>#798109</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Marks and numbers</name>
+          <color>#02e7cf</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Invoice tax</name>
+          <color>#8917fe</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Place of supply</name>
+          <color>#1d830d</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Due date</name>
+          <color>#8e315c</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Shipping address</name>
+          <color>#b8f059</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Bank details</name>
+          <color>#ec6f5c</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Account details</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>Bank</default_value>
+              <values>Bank
+Account
+IFSC
+BRANCH</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Creditor</name>
+          <color>#662102</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Total Goods amount</name>
+          <color>#9b069b</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Item number/ product code</name>
+          <color>#67c71b</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>products</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>1</default_value>
+              <values>1
+2
+3
+4
+5
+6
+7
+8
+9
+10</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>packages</name>
+          <color>#518c5a</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Package unit</name>
+          <color>#489267</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Vessel no</name>
+          <color>#76fb15</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Voyage</name>
+          <color>#85b0df</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>shipment type</name>
+          <color>#546f4e</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Dispatch method</name>
+          <color>#b15d4c</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>costumer refrence</name>
+          <color>#4e2cb1</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>BOL number</name>
+          <color>#74aeba</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Prepaid charge</name>
+          <color>#c44113</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>length</name>
+          <color>#9913de</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>height</name>
+          <color>#e12775</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>width</name>
+          <color>#cd2465</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Insurance amount</name>
+          <color>#d13df7</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Issuing carriers agent</name>
+          <color>#a49f50</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>account details</name>
+          <color>#2e293d</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Issued By</name>
+          <color>#02922f</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>declared value - custom</name>
+          <color>#be4bb2</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>declared value - carrier</name>
+          <color>#1b935d</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Table</name>
+          <color>#b080c0</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>table_row</name>
+          <color>#3d54b0</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>rows</name>
+              <mutable>True</mutable>
+              <input_type>number</input_type>
+              <default_value>0</default_value>
+              <values>0
+25
+1</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-04-29 08:18:23.840342+00:00</dumped>
+  </meta>
+  <image id="0" name="Everything a business needs for E-invoicing under GST.jpg" width="600" height="804">
+    <box label="Hs code" source="manual" occluded="0" xtl="9.84" ytl="519.41" xbr="32.94" ybr="528.65" z_order="0">
+    </box>
+    <box label="Total Goods amount" source="manual" occluded="0" xtl="543.99" ytl="461.19" xbr="590.20" ybr="470.43" z_order="0">
+    </box>
+    <box label="Invoice tax" source="manual" occluded="0" xtl="560.62" ytl="533.27" xbr="590.20" ybr="542.51" z_order="0">
+    </box>
+    <box label="Creditor" source="manual" occluded="0" xtl="19.02" ytl="62.83" xbr="81.87" ybr="80.39" z_order="0">
+    </box>
+    <box label="Total amount" source="manual" occluded="0" xtl="521.72" ytl="595.19" xbr="592.04" ybr="607.20" z_order="0">
+    </box>
+    <box label="currency" source="manual" occluded="0" xtl="510.72" ytl="593.34" xbr="519.04" ybr="605.35" z_order="0">
+    </box>
+    <box label="Bank details" source="manual" occluded="0" xtl="83.77" ytl="630.30" xbr="167.86" ybr="640.47" z_order="0">
+      <attribute name="Account details">Bank</attribute>
+    </box>
+    <box label="Bank details" source="manual" occluded="0" xtl="83.77" ytl="644.17" xbr="143.84" ybr="651.56" z_order="0">
+      <attribute name="Account details">Account</attribute>
+    </box>
+    <box label="Bank details" source="manual" occluded="0" xtl="81.92" ytl="656.18" xbr="146.61" ybr="667.27" z_order="0">
+      <attribute name="Account details">IFSC</attribute>
+    </box>
+    <box label="Bank details" source="manual" occluded="0" xtl="81.92" ytl="670.04" xbr="155.85" ybr="679.28" z_order="0">
+      <attribute name="Account details">BRANCH</attribute>
+    </box>
+    <box label="Seller" source="manual" occluded="0" xtl="97.63" ytl="43.48" xbr="274.14" ybr="116.48" z_order="0">
+    </box>
+    <box label="Invoice number" source="manual" occluded="0" xtl="303.71" ytl="43.48" xbr="342.53" ybr="56.41" z_order="0">
+    </box>
+    <box label="Invoice date" source="manual" occluded="0" xtl="450.65" ytl="44.40" xbr="505.18" ybr="54.57" z_order="0">
+    </box>
+    <box label="Place of supply" source="manual" occluded="0" xtl="305.56" ytl="82.29" xbr="382.26" ybr="90.61" z_order="0">
+    </box>
+    <box label="Due date" source="manual" occluded="0" xtl="448.80" ytl="80.44" xbr="543.99" ybr="92.46" z_order="0">
+    </box>
+    <box label="Consignee" source="manual" occluded="0" xtl="10.76" ytl="138.66" xbr="263.05" ybr="242.17" z_order="0">
+    </box>
+    <box label="Shipping address" source="manual" occluded="0" xtl="302.79" ytl="268.97" xbr="444.18" ybr="306.86" z_order="0">
+    </box>
+    <box label="Description of goods" source="manual" occluded="0" xtl="32.02" ytl="334.58" xbr="99.48" ybr="346.59" z_order="0">
+    </box>
+    <box label="table_row" source="manual" occluded="0" xtl="7.05" ytl="330.40" xbr="592.50" ybr="372.30" z_order="0">
+      <attribute name="rows">0</attribute>
+    </box>
+    <box label="Table" source="manual" occluded="0" xtl="7.05" ytl="313.76" xbr="595.49" ybr="454.41" z_order="0">
+    </box>
+    <tag label="Document Type" source="manual">
+      <attribute name="Type">Commercial Invoice</attribute>
+    </tag>
+  </image>
+  <image id="1" name="IncoDocs Template Library _ 30+ Templates for Import Export.jpg" width="594" height="841">
+    <box label="Gross weight uom" source="manual" occluded="0" xtl="471.02" ytl="328.63" xbr="481.65" ybr="339.26" z_order="0">
+    </box>
+    <box label="Gross weight" source="manual" occluded="0" xtl="476.82" ytl="635.06" xbr="500.02" ybr="643.76" z_order="0">
+    </box>
+    <box label="Volume" source="manual" occluded="0" xtl="537.72" ytl="634.09" xbr="550.28" ybr="645.69" z_order="0">
+    </box>
+    <box label="volume unit" source="manual" occluded="0" xtl="522.25" ytl="327.66" xbr="532.88" ybr="338.29" z_order="0">
+    </box>
+    <box label="Quantity" source="manual" occluded="0" xtl="292.18" ytl="635.06" xbr="308.62" ybr="644.73" z_order="0">
+    </box>
+    <box label="UOM" source="manual" occluded="0" xtl="311.52" ytl="340.23" xbr="342.45" ybr="348.93" z_order="0">
+    </box>
+    <box label="Port of loading" source="manual" occluded="0" xtl="43.75" ytl="274.49" xbr="91.12" ybr="285.13" z_order="0">
+    </box>
+    <box label="Seller" source="manual" occluded="0" xtl="42.78" ytl="69.56" xbr="154.92" ybr="140.13" z_order="0">
+    </box>
+    <box label="Consignee" source="manual" occluded="0" xtl="43.75" ytl="154.63" xbr="151.05" ybr="209.73" z_order="0">
+    </box>
+    <box label="Creditor" source="manual" occluded="0" xtl="188.75" ytl="110.16" xbr="296.05" ybr="129.49" z_order="0">
+    </box>
+    <box label="Invoice number" source="manual" occluded="0" xtl="297.98" ytl="100.49" xbr="323.12" ybr="109.19" z_order="0">
+    </box>
+    <box label="Invoice date" source="manual" occluded="0" xtl="360.82" ytl="100.49" xbr="408.18" ybr="111.13" z_order="0">
+    </box>
+    <box label="Master bill number" source="manual" occluded="0" xtl="425.58" ytl="101.46" xbr="487.45" ybr="110.16" z_order="0">
+    </box>
+    <box label="costumer refrence" source="manual" occluded="0" xtl="424.62" ytl="126.59" xbr="451.68" ybr="136.26" z_order="0">
+    </box>
+    <box label="Dispatch method" source="manual" occluded="0" xtl="42.78" ytl="230.03" xbr="59.22" ybr="240.66" z_order="0">
+    </box>
+    <box label="shipment type" source="manual" occluded="0" xtl="170.38" ytl="231.96" xbr="186.82" ybr="240.66" z_order="0">
+    </box>
+    <box label="Vessel no" source="manual" occluded="0" xtl="43.75" ytl="255.16" xbr="81.45" ybr="262.89" z_order="0">
+    </box>
+    <box label="Voyage" source="manual" occluded="0" xtl="171.35" ytl="253.23" xbr="197.45" ybr="260.96" z_order="0">
+    </box>
+    <box label="Port of destination" source="manual" occluded="0" xtl="171.35" ytl="297.69" xbr="256.42" ybr="307.36" z_order="0">
+    </box>
+    <box label="Port of discharge" source="manual" occluded="0" xtl="43.75" ytl="299.63" xbr="74.68" ybr="308.33" z_order="0">
+    </box>
+    <box label="Country of origin" source="manual" occluded="0" xtl="297.98" ytl="231.96" xbr="352.12" ybr="240.66" z_order="0">
+    </box>
+    <box label="country of destination" source="manual" occluded="0" xtl="425.58" ytl="231.96" xbr="462.32" ybr="240.66" z_order="0">
+    </box>
+    <box label="packages" source="manual" occluded="0" xtl="387.88" ytl="636.03" xbr="397.55" ybr="642.79" z_order="0">
+    </box>
+    <box label="Package unit" source="manual" occluded="0" xtl="334.72" ytl="321.86" xbr="375.32" ybr="330.56" z_order="0">
+    </box>
+    <box label="Netweight" source="manual" occluded="0" xtl="425.58" ytl="633.13" xbr="450.72" ybr="646.66" z_order="0">
+    </box>
+    <box label="Net weight uom" source="manual" occluded="0" xtl="418.82" ytl="321.86" xbr="431.38" ybr="330.56" z_order="0">
+    </box>
+    <box label="table_row" source="manual" occluded="0" xtl="42.18" ytl="336.27" xbr="550.42" ybr="357.42" z_order="0">
+      <attribute name="rows">0</attribute>
+    </box>
+    <box label="table_row" source="manual" occluded="0" xtl="42.18" ytl="357.42" xbr="550.42" ybr="380.68" z_order="0">
+      <attribute name="rows">1</attribute>
+    </box>
+    <box label="Table" source="manual" occluded="0" xtl="42.89" ytl="310.89" xbr="551.13" ybr="618.90" z_order="0">
+    </box>
+    <tag label="Document Type" source="manual">
+      <attribute name="Type">Packing list</attribute>
+    </tag>
+  </image>
+  <image id="2" name="Master _ House AWB _ Elink.jpg" width="533" height="744">
+    <box label="Issuing carriers agent" source="manual" occluded="0" xtl="14.67" ytl="174.84" xbr="71.96" ybr="205.63" z_order="0">
+    </box>
+    <box label="Port of loading" source="manual" occluded="0" xtl="15.44" ytl="239.84" xbr="137.81" ybr="249.24" z_order="0">
+    </box>
+    <box label="Port of destination" source="manual" occluded="0" xtl="12.87" ytl="286.87" xbr="81.37" ybr="296.28" z_order="0">
+    </box>
+    <box label="Carrier" source="manual" occluded="0" xtl="43.66" ytl="263.78" xbr="155.77" ybr="273.19" z_order="0">
+    </box>
+    <box label="currency" source="manual" occluded="0" xtl="256.68" ytl="262.07" xbr="276.35" ybr="273.19" z_order="0">
+    </box>
+    <box label="Master bill number" source="manual" occluded="0" xtl="16.38" ytl="14.07" xbr="111.22" ybr="26.04" z_order="0">
+    </box>
+    <box label="declared value - custom" source="manual" occluded="0" xtl="463.55" ytl="263.78" xbr="484.16" ybr="273.19" z_order="0">
+    </box>
+    <box label="declared value - carrier" source="manual" occluded="0" xtl="384.87" ytl="264.64" xbr="405.48" ybr="274.90" z_order="0">
+    </box>
+    <box label="Gross weight" source="manual" occluded="0" xtl="53.15" ytl="499.81" xbr="84.79" ybr="510.92" z_order="0">
+    </box>
+    <box label="Gross weight uom" source="manual" occluded="0" xtl="85.65" ytl="369.82" xbr="91.55" ybr="379.23" z_order="0">
+    </box>
+    <box label="Quantity" source="manual" occluded="0" xtl="13.81" ytl="502.37" xbr="22.36" ybr="511.78" z_order="0">
+    </box>
+    <box label="Total amount" source="manual" occluded="0" xtl="319.88" ytl="499.81" xbr="349.90" ybr="510.92" z_order="0">
+    </box>
+    <box label="Volume" source="manual" occluded="0" xtl="440.54" ytl="499.81" xbr="458.50" ybr="509.21" z_order="0">
+    </box>
+    <box label="length" source="manual" occluded="0" xtl="375.55" ytl="380.94" xbr="384.96" ybr="388.64" z_order="0">
+    </box>
+    <box label="height" source="manual" occluded="0" xtl="390.09" ytl="380.08" xbr="399.50" ybr="389.49" z_order="0">
+    </box>
+    <box label="width" source="manual" occluded="0" xtl="404.54" ytl="380.08" xbr="414.03" ybr="388.64" z_order="0">
+    </box>
+    <box label="Description of goods" source="manual" occluded="0" xtl="361.87" ytl="370.68" xbr="378.89" ybr="379.23" z_order="0">
+    </box>
+    <box label="Prepaid charge" source="manual" occluded="0" xtl="41.18" ytl="665.71" xbr="74.53" ybr="678.54" z_order="0">
+    </box>
+    <box label="Place of issue" source="manual" occluded="0" xtl="294.31" ytl="677.68" xbr="348.10" ybr="686.24" z_order="0">
+    </box>
+    <box label="date of issue" source="manual" occluded="0" xtl="214.78" ytl="677.68" xbr="265.23" ybr="687.95" z_order="0">
+    </box>
+    <box label="Consignee" source="manual" occluded="0" xtl="16.38" ytl="114.98" xbr="100.10" ybr="149.19" z_order="0">
+    </box>
+    <box label="Seller" source="manual" occluded="0" xtl="12.10" ytl="51.70" xbr="82.23" ybr="84.19" z_order="0">
+    </box>
+    <box label="table_row" source="manual" occluded="0" xtl="12.06" ytl="367.01" xbr="510.94" ybr="390.08" z_order="0">
+      <attribute name="rows">0</attribute>
+    </box>
+    <box label="Table" source="manual" occluded="0" xtl="12.06" ytl="345.19" xbr="513.40" ybr="499.22" z_order="0">
+    </box>
+    <box label="Creditor" source="manual" occluded="0" xtl="378.12" ytl="32.88" xbr="492.71" ybr="61.10" z_order="0">
+    </box>
+    <box label="Issued By" source="manual" occluded="0" xtl="256.68" ytl="61.10" xbr="367.85" ybr="80.77" z_order="0">
+    </box>
+    <box label="account details" source="manual" occluded="0" xtl="255.83" ytl="170.57" xbr="448.24" ybr="196.22" z_order="0">
+    </box>
+    <tag label="Document Type" source="manual">
+      <attribute name="Type">Master airway bill</attribute>
+    </tag>
+  </image>
+</annotations>
